@@ -1,0 +1,13 @@
+[package]
+name = "asm3k"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.103"
+cpal = { version = "0.18.1", features = ["pipewire"] }
+hound = "3.5.1"
+ringbuf = "0.5.0"
+rubato = "4.0.0"
+transcribe-cpp = { version = "0.1.2", default-features = false, features = ["vulkan"] }
+voice_activity_detector = { version = "0.2.1", default-features = false }
